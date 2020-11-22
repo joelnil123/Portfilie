@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./Pics/Ny.jpg");
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  left: 50%;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 21%;
+  justify-items: center;
+  color: aliceblue;
+  align-items: center;
+}
+
+.nav-links_backend {
+  padding-top: 7%;
+  padding-left: 5%;
+}
+
+.nav-links_frontend {
+  display: inline;
+  padding-top: 7%;
+  padding-left: 5%;
+}
+
+.nav-links_other {
+  padding-top: 7%;
+  padding-left: 5%;
+  display: inline;
+}
+
+.nav-links li {
+  padding-left: 7rem;
+  font-size: 1.5rem;
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: aliceblue;
+}
+.MainPage-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  font-size: 1.5rem;
+  transform: translate(-50%, -30%);
+  color: aliceblue;
+}
+.MainPage-InfoText {
+  padding-top: 25%;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: rgb(97, 105, 109);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+.landing_Icon {
+  padding-top: 21%;
+  padding-left: 47%;
+  display: flex;
+  margin: 10px 20px;
+  border-radius: 50%;
+  color: red;
+}
+.h4 {
+  left: 50%;
+}
+
+a:link {
+  color: aliceblue;
+}
+a:visited {
+  color: aliceblue;
+}
+a:hover {
+  color: aliceblue;
+}
+a:focus {
+  color: aliceblue;
+}
+a:active {
+  color: aliceblue;
+}
+#githubrepos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.githubrepo {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+  padding-top: 20%;
+}
+
+.githubrepo:hover {
+  border: 1px solid aliceblue;
+}
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.content {
+  color: aliceblue;
+}
+
+.codingExperience {
+  padding-left: 15%;
+  padding-top: 45%;
+  color: aliceblue;
+  font-size: 1.2rem;
+  width: 55%;
+}
+
+.aboutme {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.aboutme_text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
